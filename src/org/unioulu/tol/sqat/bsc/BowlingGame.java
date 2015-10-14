@@ -7,6 +7,7 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	private static final int MAX_NUMBER_OF_FRAMES = 10;
 	
 	public BowlingGame(){}
 	

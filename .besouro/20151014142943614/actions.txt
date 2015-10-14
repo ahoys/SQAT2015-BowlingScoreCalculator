@@ -139,3 +139,7 @@ RefactoringAction 1444825041443 TestBowlingScoreCalculator.java RENAME testIsSpa
 UnitTestCaseAction 1444825060150 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444825060150 TestBowlingScoreCalculator OK
 EditAction 1444825162415 Frame.java 1199 7 12 0
+RefactoringAction 1444825858603 BowlingGame.java ADD Frame currentFrame FIELD
+RefactoringAction 1444825957409 BowlingGame.java REMOVE currentFrame FIELD
+RefactoringAction 1444826176036 BowlingGame.java ADD int MAX_NUMBER_OF_FRAMES FIELD
+EditAction 1444826177994 BowlingGame.java 638 5 2 0
