@@ -64,3 +64,17 @@ CompilationAction 1444824110091 TestBowlingScoreCalculator.java
 UnitTestCaseAction 1444824150472 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444824150472 TestBowlingScoreCalculator FAIL
 EditAction 1444824168294 Frame.java 808 6 7 0
+UnitTestCaseAction 1444824170900 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824170901 TestBowlingScoreCalculator OK
+RefactoringAction 1444824259863 TestBowlingScoreCalculator.java ADD void isS FIELD
+RefactoringAction 1444824268871 TestBowlingScoreCalculator.java RENAME validFrameScore()=>void testValidFrameScore() METHOD
+RefactoringAction 1444824271380 TestBowlingScoreCalculator.java RENAME isS=>void test FIELD
+RefactoringAction 1444824272885 TestBowlingScoreCalculator.java RENAME test=>void testIs FIELD
+RefactoringAction 1444824274892 TestBowlingScoreCalculator.java RENAME testIs=>void testIsStrike FIELD
+RefactoringAction 1444824277396 TestBowlingScoreCalculator.java RENAME testIsStrike=>void testIsStrike() METHOD
+CompilationAction 1444824329072 TestBowlingScoreCalculator.java
+CompilationAction 1444824329072 TestBowlingScoreCalculator.java
+CompilationAction 1444824351178 TestBowlingScoreCalculator.java
+RefactoringAction 1444824358148 Frame.java RENAME isStrike()=>boolean isStrike(int, int) METHOD
+RefactoringAction 1444824362154 Frame.java RENAME isStrike(int, int)=>boolean isStrike() METHOD
+EditAction 1444824397756 Frame.java 808 6 7 0
