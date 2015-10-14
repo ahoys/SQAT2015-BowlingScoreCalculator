@@ -18,12 +18,17 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 	}
-	
-	public int score(int score, Frame frame){
+
+	public int incrementScore(int score, Frame frame){
 		//to be implemented
 		return score + frame.score();
 	}
-	
+
+	public int score(){
+		//to be implemented
+		return 0;
+	}
+		
 	public boolean isNextFrameBonus(){
 		//to be implemented
 		return false;

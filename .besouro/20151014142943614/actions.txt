@@ -198,3 +198,8 @@ RefactoringAction 1444829619800 TestBowlingScoreCalculator.java REMOVE testAddFr
 RefactoringAction 1444829744409 BowlingGame.java RENAME score()=>int score(int) METHOD
 RefactoringAction 1444829749415 BowlingGame.java RENAME score(int)=>int score(int, Frame) METHOD
 EditAction 1444829766008 BowlingGame.java 647 5 3 0
+RefactoringAction 1444829790968 BowlingGame.java ADD int score(int, Frame)/2 METHOD
+RefactoringAction 1444829796474 BowlingGame.java RENAME score(int, Frame)/2=>int score() METHOD
+RefactoringAction 1444829815498 BowlingGame.java RENAME score(int, Frame)=>int incrementscore(int, Frame) METHOD
+RefactoringAction 1444829816502 BowlingGame.java RENAME incrementscore(int, Frame)=>int incrementScore(int, Frame) METHOD
+EditAction 1444829819401 BowlingGame.java 720 6 4 0
