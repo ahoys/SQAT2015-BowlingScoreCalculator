@@ -1,0 +1,16 @@
+FileOpenedAction 1444822183968 TestBowlingScoreCalculator.java 223 1 1 0
+FileOpenedAction 1444822188394 BowlingGame.java 584 5 2 0
+FileOpenedAction 1444822192437 Frame.java 794 6 7 0
+UnitTestCaseAction 1444822212477 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444822212482 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444823430883 TestBowlingScoreCalculator.java ADD int validScore FIELD
+RefactoringAction 1444823442417 TestBowlingScoreCalculator.java ADD int validSecond FIELD
+RefactoringAction 1444823450442 TestBowlingScoreCalculator.java RENAME validScore=>int validScoreF FIELD
+RefactoringAction 1444823454947 TestBowlingScoreCalculator.java RENAME validSecond=>int validScoreS FIELD
+RefactoringAction 1444823459955 TestBowlingScoreCalculator.java RENAME validScoreF=>int validScore1st FIELD
+RefactoringAction 1444823461959 TestBowlingScoreCalculator.java RENAME validScoreS=>int validScore2nd FIELD
+RefactoringAction 1444823472975 TestBowlingScoreCalculator.java REMOVE validScore2nd FIELD
+RefactoringAction 1444823472977 TestBowlingScoreCalculator.java REMOVE validScore1st FIELD
+RefactoringAction 1444823484252 TestBowlingScoreCalculator.java RENAME test()=>void validScore() METHOD
+RefactoringAction 1444823489257 TestBowlingScoreCalculator.java RENAME validScore()=>void validFrameScore() METHOD
+EditAction 1444823686659 TestBowlingScoreCalculator.java 271 1 2 0
