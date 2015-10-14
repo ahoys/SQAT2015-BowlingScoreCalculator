@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private static final int MAX_NUMBER_OF_FRAMES = 10;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -47,7 +48,7 @@ public class Frame {
 		//to be implemented
 		//int frameCount = frames.size();
 		int frameCount = mock;
-		if (frameCount > 9) {
+		if (frameCount >= MAX_NUMBER_OF_FRAMES) {
 			return true;
 		}
 		return false;
