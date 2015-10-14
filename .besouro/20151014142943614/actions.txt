@@ -122,3 +122,13 @@ UnitTestSessionAction 1444824819278 TestBowlingScoreCalculator OK
 EditAction 1444824856084 Frame.java 1139 7 11 0
 EditAction 1444824868257 Frame.java 1148 7 11 0
 EditAction 1444824907685 Frame.java 1125 7 11 0
+RefactoringAction 1444824914542 TestBowlingScoreCalculator.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1444824919549 TestBowlingScoreCalculator.java RENAME testIsStrike()/2=>void testIsNotStrike() METHOD
+UnitTestCaseAction 1444824935207 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824935208 TestBowlingScoreCalculator OK
+RefactoringAction 1444824942585 TestBowlingScoreCalculator.java ADD void testIsNotStrike()/2 METHOD
+RefactoringAction 1444824948091 TestBowlingScoreCalculator.java RENAME testIsNotStrike()/2=>void testIsSpade() METHOD
+RefactoringAction 1444824949595 TestBowlingScoreCalculator.java RENAME testIsSpade()=>void testIsSpare() METHOD
+UnitTestCaseAction 1444824978343 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444824978343 TestBowlingScoreCalculator FAIL
+EditAction 1444825029014 Frame.java 1222 7 12 0

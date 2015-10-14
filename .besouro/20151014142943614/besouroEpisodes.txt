@@ -459,3 +459,6 @@
 1444824780331 test-addition 1 10 true
 1444824819278 test-addition 1 25 true
 1444824819279 test-addition 1 25 true
+1444824935208 test-last 1 79 false
+1444824935209 test-last 1 79 false
+1444824935210 test-last 1 79 false
