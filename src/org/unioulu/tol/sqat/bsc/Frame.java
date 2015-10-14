@@ -50,7 +50,6 @@ public class Frame {
 		if (frameCount > 9) {
 			return true;
 		}
-		
 		return false;
 	}
 
