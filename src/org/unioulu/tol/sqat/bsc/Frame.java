@@ -9,7 +9,7 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		if (!validThrow()) {
-			System.out.println("Yarr, given throw values are not valid!");
+			System.out.println("Yarr, given throw values are not valid! (" + this.firstThrow + ", " + this.secondThrow + ").");
 		}
 	}
 	
