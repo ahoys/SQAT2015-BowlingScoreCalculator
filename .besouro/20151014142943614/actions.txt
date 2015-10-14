@@ -203,3 +203,12 @@ RefactoringAction 1444829796474 BowlingGame.java RENAME score(int, Frame)/2=>int
 RefactoringAction 1444829815498 BowlingGame.java RENAME score(int, Frame)=>int incrementscore(int, Frame) METHOD
 RefactoringAction 1444829816502 BowlingGame.java RENAME incrementscore(int, Frame)=>int incrementScore(int, Frame) METHOD
 EditAction 1444829819401 BowlingGame.java 720 6 4 0
+RefactoringAction 1444829881551 BowlingGame.java ADD int s FIELD
+RefactoringAction 1444829883056 BowlingGame.java RENAME s=>int score FIELD
+RefactoringAction 1444829894067 BowlingGame.java RENAME incrementScore(int, Frame)=>int incrementScore() METHOD
+CompilationAction 1444829904958 BowlingGame.java
+CompilationAction 1444829904958 BowlingGame.java
+RefactoringAction 1444829930285 BowlingGame.java RENAME incrementScore()=>int incrementScore(Frame) METHOD
+CompilationAction 1444829939757 BowlingGame.java
+CompilationAction 1444829939757 BowlingGame.java
+EditAction 1444829987701 BowlingGame.java 740 6 4 0
