@@ -7,3 +7,5 @@
 1444824780331 test-addition 1 10 true
 1444824819278 test-addition 1 25 true
 1444824935208 test-last 1 79 false
+1444825031168 test-first 3 88 true
+1444825060150 test-addition 1 21 true

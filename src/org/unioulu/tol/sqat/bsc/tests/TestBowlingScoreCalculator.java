@@ -67,5 +67,11 @@ public class TestBowlingScoreCalculator {
 		Frame singleframe = new Frame(1, 9);
 		assertEquals(true, singleframe.isSpare());
 	}
+	
+	@Test
+	public void testIsNotSpare() {
+		Frame singleframe = new Frame(0, 0);
+		assertEquals(false, singleframe.isSpare());
+	}
 
 }
