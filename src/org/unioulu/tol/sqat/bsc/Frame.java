@@ -10,6 +10,7 @@ public class Frame {
 		this.secondThrow = secondThrow;
 		if (!validThrow()) {
 			System.out.println("Yarr, given throw values are not valid!");
+		}
 	}
 	
 	//return true whether throw values are in valid range
