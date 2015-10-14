@@ -174,3 +174,6 @@ RefactoringAction 1444826769440 BowlingGame.java REMOVE MAX_NUMBER_OF_FRAMES FIE
 RefactoringAction 1444826771954 Frame.java ADD int MAX_NUMBER_OF_FRAMES FIELD
 EditAction 1444826772094 Frame.java 1391 7 14 0
 EditAction 1444826774553 BowlingGame.java 583 5 2 0
+UnitTestCaseAction 1444826776066 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826776066 TestBowlingScoreCalculator OK
+EditAction 1444828065903 Frame.java 1408 7 15 0
