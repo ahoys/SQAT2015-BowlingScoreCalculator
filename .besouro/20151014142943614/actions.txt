@@ -192,3 +192,9 @@ EditAction 1444828560540 Frame.java 1540 7 15 0
 RefactoringAction 1444828801079 Frame.java ADD int extraThrow FIELD
 RefactoringAction 1444828822095 Frame.java REMOVE extraThrow FIELD
 EditAction 1444829061085 BowlingGame.java 605 5 3 0
+RefactoringAction 1444829459146 TestBowlingScoreCalculator.java ADD void testIsNotLastFrameOfTheMatch()/2 METHOD
+RefactoringAction 1444829467155 TestBowlingScoreCalculator.java RENAME testIsNotLastFrameOfTheMatch()/2=>void testAddFrame() METHOD
+RefactoringAction 1444829619800 TestBowlingScoreCalculator.java REMOVE testAddFrame() METHOD
+RefactoringAction 1444829744409 BowlingGame.java RENAME score()=>int score(int) METHOD
+RefactoringAction 1444829749415 BowlingGame.java RENAME score(int)=>int score(int, Frame) METHOD
+EditAction 1444829766008 BowlingGame.java 647 5 3 0
