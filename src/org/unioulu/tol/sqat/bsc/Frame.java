@@ -10,6 +10,8 @@ public class Frame {
 		this.secondThrow = secondThrow;
 		if (validThrow()) {
 			
+		} else {
+			System.out.println("Yarr, given throws values are not valid!");
 		}
 	}
 	
