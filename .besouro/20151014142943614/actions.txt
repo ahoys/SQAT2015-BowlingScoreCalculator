@@ -78,3 +78,6 @@ CompilationAction 1444824351178 TestBowlingScoreCalculator.java
 RefactoringAction 1444824358148 Frame.java RENAME isStrike()=>boolean isStrike(int, int) METHOD
 RefactoringAction 1444824362154 Frame.java RENAME isStrike(int, int)=>boolean isStrike() METHOD
 EditAction 1444824397756 Frame.java 808 6 7 0
+UnitTestCaseAction 1444824399899 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444824399899 TestBowlingScoreCalculator FAIL
+EditAction 1444824434885 Frame.java 862 6 8 0
