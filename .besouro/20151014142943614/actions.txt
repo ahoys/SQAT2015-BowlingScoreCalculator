@@ -85,3 +85,14 @@ UnitTestCaseAction 1444824439721 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444824439721 TestBowlingScoreCalculator OK
 RefactoringAction 1444824460066 Frame.java RENAME score(int, int)=>int score() METHOD
 EditAction 1444824469651 Frame.java 881 6 8 0
+CompilationAction 1444824469973 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444824476523 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824476524 TestBowlingScoreCalculator OK
+RefactoringAction 1444824492082 TestBowlingScoreCalculator.java ADD void testInvalidFrameScore() METHOD
+RefactoringAction 1444824516629 TestBowlingScoreCalculator.java RENAME testInvalidFrameScore()=>void testTooHighFirst() METHOD
+RefactoringAction 1444824520637 TestBowlingScoreCalculator.java RENAME testTooHighFirst()=>void testTooHighFirstThrow() METHOD
+RefactoringAction 1444824523642 TestBowlingScoreCalculator.java RENAME testTooHighFirstThrow()=>void testTooHighFirstThrowValue() METHOD
+CompilationAction 1444824586831 TestBowlingScoreCalculator.java
+RefactoringAction 1444824604198 Frame.java ADD int validThrow FIELD
+RefactoringAction 1444824607203 Frame.java RENAME validThrow=>int validThrow() METHOD
+EditAction 1444824671843 Frame.java 1092 7 11 0

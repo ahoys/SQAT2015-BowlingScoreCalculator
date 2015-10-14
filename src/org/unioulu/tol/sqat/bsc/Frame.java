@@ -9,6 +9,16 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public boolean validThrow() {
+		if (this.firstThrow < 0 || this.secondThrow < 0) {
+			return false;
+		}
+		if (this.firstThrow > 10 || this.secondThrow > 10) {
+			return false;
+		}
+		return true;
+	}
+	
 	//the score of a single frame
 	public int score(){
 		//to be implemented

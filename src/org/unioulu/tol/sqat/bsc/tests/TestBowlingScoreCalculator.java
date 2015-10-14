@@ -11,7 +11,12 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testValidFrameScore() {
 		Frame singleframe = new Frame(1, 4);
-		assertEquals(5, singleframe.score(1, 4));
+		assertEquals(5, singleframe.score());
+	}
+	
+	@Test void testTooHighFirstThrowValue() {
+		Frame singleframe = new Frame(11, 0);
+		assertEquals(false, singleframe.validThrow());
 	}
 	
 	@Test
