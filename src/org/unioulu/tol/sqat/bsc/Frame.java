@@ -9,7 +9,7 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
-	//return true whether throw values are valid
+	//return true whether throw values are in valid range
 	public boolean validThrow() {
 		if (this.firstThrow < 0 || this.secondThrow < 0) {
 			return false;
