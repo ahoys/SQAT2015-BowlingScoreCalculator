@@ -189,3 +189,6 @@ EditAction 1444828442796 Frame.java 1540 7 15 0
 UnitTestCaseAction 1444828446786 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444828446786 TestBowlingScoreCalculator OK
 EditAction 1444828560540 Frame.java 1540 7 15 0
+RefactoringAction 1444828801079 Frame.java ADD int extraThrow FIELD
+RefactoringAction 1444828822095 Frame.java REMOVE extraThrow FIELD
+EditAction 1444829061085 BowlingGame.java 605 5 3 0
