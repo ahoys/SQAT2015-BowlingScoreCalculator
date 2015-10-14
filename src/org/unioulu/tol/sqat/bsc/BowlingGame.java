@@ -20,9 +20,9 @@ public class BowlingGame {
 		//to be implemented
 	}
 
-	public int incrementScore(Frame frame){
+	public void incrementScore(Frame frame){
 		//to be implemented
-		return this.score + frame.score();
+		this.score = this.score + frame.score();
 	}
 
 	public int score(){

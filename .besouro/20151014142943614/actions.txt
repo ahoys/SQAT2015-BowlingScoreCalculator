@@ -212,3 +212,4 @@ RefactoringAction 1444829930285 BowlingGame.java RENAME incrementScore()=>int in
 CompilationAction 1444829939757 BowlingGame.java
 CompilationAction 1444829939757 BowlingGame.java
 EditAction 1444829987701 BowlingGame.java 740 6 4 0
+EditAction 1444830026665 BowlingGame.java 747 6 4 0
