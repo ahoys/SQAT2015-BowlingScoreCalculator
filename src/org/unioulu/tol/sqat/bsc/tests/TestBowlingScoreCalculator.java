@@ -10,9 +10,8 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void validFrameScore() {
-		Frame singleframe = new Frame(0, 0);
-		assertEquals(5, singleframe.score(1, 4))
-		fail("Not yet implemented");
+		Frame singleframe = new Frame(1, 4);
+		assertEquals(5, singleframe.score(1, 4));
 	}
 
 }

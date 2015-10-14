@@ -51,3 +51,16 @@ CompilationAction 1444824016455 TestBowlingScoreCalculator.java
 CompilationAction 1444824016455 TestBowlingScoreCalculator.java
 RefactoringAction 1444824054950 Frame.java RENAME score()=>int score(int) METHOD
 EditAction 1444824056017 Frame.java 802 6 6 0
+CompilationAction 1444824056344 Frame.java
+CompilationAction 1444824056345 TestBowlingScoreCalculator.java
+CompilationAction 1444824056345 TestBowlingScoreCalculator.java
+CompilationAction 1444824058295 Frame.java
+CompilationAction 1444824058467 TestBowlingScoreCalculator.java
+CompilationAction 1444824096053 TestBowlingScoreCalculator.java
+CompilationAction 1444824096213 TestBowlingScoreCalculator.java
+CompilationAction 1444824096213 TestBowlingScoreCalculator.java
+CompilationAction 1444824110067 TestBowlingScoreCalculator.java
+CompilationAction 1444824110091 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444824150472 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444824150472 TestBowlingScoreCalculator FAIL
+EditAction 1444824168294 Frame.java 808 6 7 0

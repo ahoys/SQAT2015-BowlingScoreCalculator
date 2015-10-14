@@ -10,9 +10,9 @@ public class Frame {
 	}
 	
 	//the score of a single frame
-	public int score(int f, s){
+	public int score(int f, int s){
 		//to be implemented
-		return 0;
+		return f+s;
 	}
 
 	//returns whether the frame is a strike or not
