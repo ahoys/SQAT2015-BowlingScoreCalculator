@@ -14,8 +14,39 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, singleframe.score());
 	}
 	
-	@Test void testTooHighFirstThrowValue() {
+	@Test
+	public void testValidFirstThrowValue() {
+		Frame singleframe = new Frame(10, 0);
+		assertEquals(true, singleframe.validThrow());
+	}
+	
+	@Test
+	public void testValidSecondThrowValue() {
+		Frame singleframe = new Frame(0, 10);
+		assertEquals(true, singleframe.validThrow());
+	}
+	
+	@Test
+	public void testTooHighFirstThrowValue() {
 		Frame singleframe = new Frame(11, 0);
+		assertEquals(false, singleframe.validThrow());
+	}
+	
+	@Test
+	public void testTooLowFirstThrowValue() {
+		Frame singleframe = new Frame(-1, 0);
+		assertEquals(false, singleframe.validThrow());
+	}
+	
+	@Test
+	public void testTooHighSecondThrowValue() {
+		Frame singleframe = new Frame(0, 11);
+		assertEquals(false, singleframe.validThrow());
+	}
+	
+	@Test
+	public void testTooLowSecondThrowValue() {
+		Frame singleframe = new Frame(0, -1);
 		assertEquals(false, singleframe.validThrow());
 	}
 	

@@ -1,3 +1,8 @@
-1444824170901 refactoring 3 1986 false
-1444824439721 production 1 268 false
-1444824476524 refactoring 2A 36 false
+1444824170901 refactoring 3 1986 true
+1444824439721 production 1 268 true
+1444824476524 refactoring 2A 36 true
+1444824699230 test-first 2 222 true
+1444824733003 test-addition 1 33 true
+1444824765681 test-addition 1 32 true
+1444824780331 test-addition 1 14 true
+1444824819278 test-addition 1 38 true
