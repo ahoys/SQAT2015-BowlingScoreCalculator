@@ -21,7 +21,6 @@ public class BowlingGame {
 	}
 
 	public void incrementScore(Frame frame){
-		//to be implemented
 		this.score = this.score + frame.score();
 	}
 
