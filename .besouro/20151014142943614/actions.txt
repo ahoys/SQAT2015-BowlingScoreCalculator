@@ -156,3 +156,11 @@ CompilationAction 1444826492958 Frame.java
 CompilationAction 1444826493112 Frame.java
 CompilationAction 1444826555341 Frame.java
 EditAction 1444826628865 Frame.java 1311 7 14 0
+UnitTestCaseAction 1444826632642 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826632642 TestBowlingScoreCalculator OK
+RefactoringAction 1444826639160 TestBowlingScoreCalculator.java ADD void testIsLastFrameOfTheMatch()/2 METHOD
+RefactoringAction 1444826647668 TestBowlingScoreCalculator.java RENAME testIsLastFrameOfTheMatch()/2=>void testIsNotLas() METHOD
+RefactoringAction 1444826650173 TestBowlingScoreCalculator.java RENAME testIsNotLas()=>void testIsNotLastFrameOf() METHOD
+RefactoringAction 1444826652177 TestBowlingScoreCalculator.java RENAME testIsNotLastFrameOf()=>void testIsNotLastFrameOfTheMatch() METHOD
+RefactoringAction 1444826667726 Frame.java RENAME isLastFrame()=>boolean isLastFrame(int) METHOD
+EditAction 1444826677982 Frame.java 1321 7 14 0

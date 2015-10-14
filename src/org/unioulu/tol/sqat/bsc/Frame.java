@@ -43,10 +43,10 @@ public class Frame {
 	}
 
 	//return whether this is the last frame of the match
-	public boolean isLastFrame(){
+	public boolean isLastFrame(int mock){
 		//to be implemented
 		//int frameCount = frames.size();
-		int frameCount = 10;
+		int frameCount = mock;
 		if (frameCount > 9) {
 			return true;
 		}
