@@ -73,5 +73,11 @@ public class TestBowlingScoreCalculator {
 		Frame singleframe = new Frame(0, 0);
 		assertEquals(false, singleframe.isSpare());
 	}
+	
+	@Test
+	public void testIsLastFrameOfTheMatch() {
+		Frame singleframe = new Frame(0, 0);
+		assertEquals(true, singleframe.isLastFrame());
+	}
 
 }

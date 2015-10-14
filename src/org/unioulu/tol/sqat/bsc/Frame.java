@@ -45,6 +45,7 @@ public class Frame {
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
 		//to be implemented
+		int frameCount = frames.size();
 		return false;
 	}
 

@@ -143,3 +143,9 @@ RefactoringAction 1444825858603 BowlingGame.java ADD Frame currentFrame FIELD
 RefactoringAction 1444825957409 BowlingGame.java REMOVE currentFrame FIELD
 RefactoringAction 1444826176036 BowlingGame.java ADD int MAX_NUMBER_OF_FRAMES FIELD
 EditAction 1444826177994 BowlingGame.java 638 5 2 0
+RefactoringAction 1444826232325 TestBowlingScoreCalculator.java ADD void testIsNotSpare()/2 METHOD
+RefactoringAction 1444826240333 TestBowlingScoreCalculator.java RENAME testIsNotSpare()/2=>void testIsLastFrame() METHOD
+RefactoringAction 1444826243341 TestBowlingScoreCalculator.java RENAME testIsLastFrame()=>void testIsLastFrameOfTheMatch() METHOD
+UnitTestCaseAction 1444826267023 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444826267024 TestBowlingScoreCalculator FAIL
+EditAction 1444826368952 Frame.java 1234 7 13 0
