@@ -8,7 +8,9 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		validThrow();
+		if (validThrow()) {
+			
+		}
 	}
 	
 	//return true whether throw values are in valid range
