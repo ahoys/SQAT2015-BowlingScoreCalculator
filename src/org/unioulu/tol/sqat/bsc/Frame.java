@@ -11,7 +11,7 @@ public class Frame {
 		if (validThrow()) {
 			
 		} else {
-			System.out.println("Yarr, given throws values are not valid!");
+			System.out.println("Yarr, given throw values are not valid!");
 		}
 	}
 	
