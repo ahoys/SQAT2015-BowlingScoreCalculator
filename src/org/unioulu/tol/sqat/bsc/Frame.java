@@ -10,7 +10,7 @@ public class Frame {
 	}
 	
 	//the score of a single frame
-	public int score(){
+	public int score(int f, s){
 		//to be implemented
 		return 0;
 	}

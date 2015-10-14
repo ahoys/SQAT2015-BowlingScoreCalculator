@@ -14,3 +14,40 @@ RefactoringAction 1444823472977 TestBowlingScoreCalculator.java REMOVE validScor
 RefactoringAction 1444823484252 TestBowlingScoreCalculator.java RENAME test()=>void validScore() METHOD
 RefactoringAction 1444823489257 TestBowlingScoreCalculator.java RENAME validScore()=>void validFrameScore() METHOD
 EditAction 1444823686659 TestBowlingScoreCalculator.java 271 1 2 0
+CompilationAction 1444823687067 TestBowlingScoreCalculator.java
+CompilationAction 1444823709981 TestBowlingScoreCalculator.java
+CompilationAction 1444823710139 TestBowlingScoreCalculator.java
+RefactoringAction 1444823756358 TestBowlingScoreCalculator.java ADD import org.junit.Assert.*/2 IMPORT
+RefactoringAction 1444823763374 TestBowlingScoreCalculator.java RENAME import org.junit.Assert.*/2=>import org.unioulu.tol.sqat.bsc IMPORT
+CompilationAction 1444823763755 TestBowlingScoreCalculator.java
+CompilationAction 1444823763913 TestBowlingScoreCalculator.java
+CompilationAction 1444823763914 TestBowlingScoreCalculator.java
+RefactoringAction 1444823769386 TestBowlingScoreCalculator.java REMOVE import org.unioulu.tol.sqat.bsc IMPORT
+CompilationAction 1444823779989 TestBowlingScoreCalculator.java
+CompilationAction 1444823780146 TestBowlingScoreCalculator.java
+CompilationAction 1444823780146 TestBowlingScoreCalculator.java
+CompilationAction 1444823782436 TestBowlingScoreCalculator.java
+CompilationAction 1444823782437 TestBowlingScoreCalculator.java
+CompilationAction 1444823782461 TestBowlingScoreCalculator.java
+RefactoringAction 1444823851495 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc IMPORT
+RefactoringAction 1444823853501 TestBowlingScoreCalculator.java REMOVE import org.unioulu.tol.sqat.bsc IMPORT
+RefactoringAction 1444823855009 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+CompilationAction 1444823855987 TestBowlingScoreCalculator.java
+CompilationAction 1444823856152 TestBowlingScoreCalculator.java
+RefactoringAction 1444823911384 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame/2 IMPORT
+RefactoringAction 1444823916892 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.Frame/2=>import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+CompilationAction 1444823918501 TestBowlingScoreCalculator.java
+CompilationAction 1444823998939 TestBowlingScoreCalculator.java
+CompilationAction 1444823998940 TestBowlingScoreCalculator.java
+CompilationAction 1444824011442 TestBowlingScoreCalculator.java
+CompilationAction 1444824011442 TestBowlingScoreCalculator.java
+CompilationAction 1444824011481 TestBowlingScoreCalculator.java
+CompilationAction 1444824011482 TestBowlingScoreCalculator.java
+CompilationAction 1444824011482 TestBowlingScoreCalculator.java
+CompilationAction 1444824016311 TestBowlingScoreCalculator.java
+CompilationAction 1444824016311 TestBowlingScoreCalculator.java
+CompilationAction 1444824016312 TestBowlingScoreCalculator.java
+CompilationAction 1444824016455 TestBowlingScoreCalculator.java
+CompilationAction 1444824016455 TestBowlingScoreCalculator.java
+RefactoringAction 1444824054950 Frame.java RENAME score()=>int score(int) METHOD
+EditAction 1444824056017 Frame.java 802 6 6 0
